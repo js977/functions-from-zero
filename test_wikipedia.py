@@ -1,4 +1,3 @@
-
 from mylib.bot import scrape
 from click.testing import CliRunner
 from wikibot import cli
@@ -14,4 +13,3 @@ def test_wikibot():
 
     assert result.exit_code == 0
     assert "Microsoft" in result.output
-  

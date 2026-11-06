@@ -1,4 +1,6 @@
-def add(x,y):
+def add(x, y):
 
-    return x+y
-print(add(2,2))
+    return x + y
+
+
+print(add(2, 2))

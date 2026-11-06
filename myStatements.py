@@ -1,22 +1,10 @@
-my_list=[
-    "orange",
-    "Ananas",
-    "Mango"
-]
+my_list = ["orange", "Ananas", "Mango"]
 
-my_dict={
-
-    "drink":"coffe",
-    "milk":"Whole"
-}
+my_dict = {"drink": "coffe", "milk": "Whole"}
 
 for item in my_list:
-    print(
+    print(f"My favourite thing to eat is:{item}")
 
-        f"My favourite thing to eat is:{item}"
-    )
-
-for _,value in my_dict.items():
+for _, value in my_dict.items():
 
     print(f"My favourite thing to drink is:{value}")
-
